@@ -1,0 +1,111 @@
+/* * {
+  margin: 0;
+  padding: 0;
+} */
+
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+/* Hero Section */
+
+.navbar {
+  background-color: rgba(10, 10, 10, 0.5);
+}
+.navbar-brand {
+  margin-left: 20px;
+}
+
+#menu {
+  padding-right: 15px;
+}
+
+#Hero-Section {
+  background-image: url("../img/bg-hero2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+  height: 100vh;
+}
+
+.container h1 {
+  font-size: 5rem;
+}
+
+#Container_Frase {
+  margin-top: 200px;
+  text-align: left;
+}
+
+#FraseHeader {
+  display: inline-grid;
+}
+
+.quien-es-row {
+  display: flex;
+  text-align: center;
+}
+
+/* Mis trabajos */
+
+.bg-info {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-info-rgb), var(--bs-bg-opacity));
+  background-color: rgb(28, 13, 185) !important;
+}
+
+.Span {
+  font-size: 1.420rem;
+  display: block;
+  font-family: monospace;
+  white-space: nowrap;
+  border-right: 4px solid;
+  width: 22ch;
+  color: darkorange;
+
+  animation: typing 3s steps(15), blink .5s infinite step-end alternate;
+  overflow: hidden;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+#Mis-trabajos .image-top {
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#btn-proyectos {
+  display: flex;
+  justify-content: center;
+}
+
+
+/* Contacto */
+
+#Contacto form label {
+  font-weight: 700;
+  color: #373a3c;
+}
+
+@media (max-width: 768px) {
+  #Contacto form label {
+    font-weight: 400;
+  }
+
+  .navbar-brand{
+    width: 100px;
+  }
+
+}
