@@ -1,7 +1,8 @@
 # CoderFunk.github.io
 Mi portafolio
 <br>
-En el hay 2 paginas, "Home" y "Portafolio", entrar a portafolio haciendo click en cualquier botón de la sección "Portafolio".
+En el hay 2 paginas, "Home" y "Portafolio", entrar a portafolio haciendo click en cualquier botón de la sección "Portafolio".<br>
+En "portafolio hacer click en proyectos para ver sus repositorios".<br>
 <br>
 <br>
 Fork a colegas con sus modificaciones y commits:
